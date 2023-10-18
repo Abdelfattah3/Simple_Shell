@@ -15,3 +15,8 @@ int _strlen(const char *cmd)
 	}
 	return (i);
 }
+/*
+ * checking if cmd is NULL. If it is
+ * , then function returns 0.
+ * Otherwise,function sets integer i to 0.
+ */

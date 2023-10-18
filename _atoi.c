@@ -31,4 +31,5 @@ int _atoi(const char *cmd)
 		return (res * l);
 	}
 	return (res);
+	/*used for parsing command-line arguments, reading configuration files, and processing text data.*/
 }

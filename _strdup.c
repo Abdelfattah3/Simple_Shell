@@ -13,6 +13,7 @@ char *_strdup(char *cmd)
 		return (NULL);
 	}
 	cp = malloc((_strlen(cmd) + 1) * sizeof(char));
+	/*freeing the memory allocated for the string*/
 	if (!cp)
 	{
 		return (NULL);

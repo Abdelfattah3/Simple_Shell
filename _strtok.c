@@ -41,4 +41,5 @@ char *_strtok(char *cmd, const char *de)
 		c++;
 	}
 	return (a);
+	/* returns a pointer to the beginning of the token, which is the word*/
 }

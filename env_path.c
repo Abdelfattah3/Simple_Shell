@@ -46,4 +46,5 @@ int env_path(char **av, char **aa)
 		}
 	}
 	return (EXIT_FAILURE);
+	/* executing commands from the environment path.*/
 }

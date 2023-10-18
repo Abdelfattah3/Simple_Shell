@@ -30,4 +30,6 @@ int bu_path(char **av, char **aa)
 		i++;
 	}
 	return (env_path(av, aa));
+	/* used for executing built-in command*/
+	/*and commands from the environment path*/
 }

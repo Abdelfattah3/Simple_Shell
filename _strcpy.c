@@ -15,4 +15,5 @@ char *_strcpy(char *des, char *src)
 	}
 	*des = '\0';
 	return (a);
+	/* copying strings*/
 }

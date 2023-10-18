@@ -13,4 +13,5 @@ void free_list(char ***av)
 		d++;
 	}
 	free((*av));
+	/*freeing the memory that has been allocated for an array of strings.*/
 }

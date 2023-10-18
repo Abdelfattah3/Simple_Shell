@@ -26,4 +26,5 @@ int is_char(char *t)
 		}
 	}
 	return (0);
+	/*  checking if a string contains only characters*/
 }

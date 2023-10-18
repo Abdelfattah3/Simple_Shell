@@ -32,4 +32,5 @@ char *_getenv(const char *name)
 		en++;
 	}
 	return (NULL);
+	/* used for getting the values of environment variables*/
 }

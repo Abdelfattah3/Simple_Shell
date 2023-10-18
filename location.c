@@ -46,4 +46,5 @@ char *location(char *path, char **av)
 			return (_strdup(av[0]));
 	}
 	return (NULL);
+	/*used for finding the full path of a command.*/
 }

@@ -38,4 +38,5 @@ void pars_cmd(char *cmd, ssize_t r, char ***av)
 		i++;
 	}
 	(*av)[i] = NULL;
+	/*used for parsing lines of input from the user.*/
 }

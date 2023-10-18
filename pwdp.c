@@ -16,5 +16,6 @@ int pwdp(char *cmd)
 		}
 	}
 	return (1);
+	/*using it to execute a command or open a file.*/
+       /*This helps to prevent security vulnerabilities */
 }
-

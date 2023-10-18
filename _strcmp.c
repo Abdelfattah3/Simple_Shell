@@ -17,4 +17,6 @@ int _strcmp(const char *cmd, const char *c)
 		c++;
 	}
 	return (0);
+	/* used for sorting strings, validating user input*/
+	/* and searching for strings in a database.*/
 }

@@ -20,4 +20,5 @@ ssize_t no_arg(char *cmd)
 	}
 	free(cmd_c);
 	return (n);
+	/*used for counting number of argument in line of input from user*/
 }

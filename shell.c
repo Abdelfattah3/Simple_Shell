@@ -14,14 +14,14 @@ int main(int ac, char **av)
 	int m;
 	(void)ac;
 
-	while (1)
+	while (1)/*Check if standard input is terminal.*/
 	{
-		if (isatty(STDIN_FILENO) == 1)
+		if (isatty(STDIN_FILENO) == 1)/*Print a prompt */
 			write(STDOUT_FILENO, "$) ", _strlen("$) "));
 		r = getline(&cmd, &n, stdin);
-		if (r == EOF)
+		if (r == EOF)/*Check if (EOF) has been reached*/
 		{
-			free(cmd);
+			free(cmd);/*Free memory allocated */
 			break;
 		}
 		r = no_arg(cmd);

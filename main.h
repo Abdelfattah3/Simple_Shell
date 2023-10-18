@@ -24,6 +24,7 @@ void free_list(char ***av);
 int is_char(char *t);
 void error_msg(char **aa, char **av);
 int pwdp(char *cmd);
+/*string function*/
 int _strlen(const char *cmd);
 int _strcmp(const char *cmd, const char *c);
 char *_strdup(char *cmd);
@@ -31,7 +32,9 @@ char *_strcat(char *des, char *src);
 char *_strcpy(char *des, char *src);
 char *_strchr(const char *des, const char *src);
 char *_strtok(char *cmd, const char *de);
+
 char *_getenv(const char *name);
 int _atoi(const char *cmd);
 
+/*creat by Alaa and Abdelfattah */
 #endif

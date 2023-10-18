@@ -16,4 +16,7 @@ char *_strchr(const char *des, const char *src)
 		des++;
 	}
 	return (NULL);
+	/* It is used in many different applications,*/
+       /*such as parsing strings, validating user input,*/
+       /*and searching for substrings in a text file.*/
 }
